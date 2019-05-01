@@ -1,0 +1,11 @@
+.bookEntry {
+    max-width: 768px;
+    margin: 25px auto;
+}
+
+img {
+    display: block;
+    float: left;
+    margin: 25px 45px 25px 0px;
+    clear: both;
+}
