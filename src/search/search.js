@@ -45,8 +45,8 @@ export default class Search extends Component {
           })
       }  
 render() {
-    const error = this.props.error && <div className="error">{this.props.error}</div>;
-    return(     
+    const error = this.props.error && <div className="error">{this.props.error.message}</div>;
+    return(
     <div>
          { error }
         <form className="searchForm_books" onSubmit={e => this.handleSubmit(e)}>
